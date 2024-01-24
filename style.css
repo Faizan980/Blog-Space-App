@@ -1,13 +1,14 @@
 body {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 nav {
-    background-color: beige;
+    background-color: black;
+    color: whitesmoke;
     padding: 5px;
-    height: 30px;
+    height: 44px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -15,7 +16,8 @@ nav {
 }
 
 nav > h3 {
-    margin: 0;
+    margin: 0 auto;
+    font-weight: 600;
 }
 
 #blog-list {
@@ -23,17 +25,35 @@ nav > h3 {
 }
 
 form {
-    padding: 60px 10px 10px;
+    padding: 80px 100px 10px;
     display: grid;
-    background-color: lightblue;
+    background-color: #ababab;
 }
 
 input#post-title, textarea#post-body {
     margin-bottom: 10px;
+    margin-top: 12px;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
 }
 
 button {
     padding: 10px;
     font-size: 18px;
     cursor: pointer;
+    max-width: 67px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #dce4e6;
+    color: black;
+}
+button:active {
+    box-shadow: 1px 1px 2px black;
 }
